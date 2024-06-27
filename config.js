@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Matheus',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'e8f2c4fa78b7ce58ed8dc11dd1211202', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '-23.550520',
+	defaultLongitude: '-46.633308',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -61,31 +61,25 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/',
 		},
 		{
-			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
-		},
-		{
-			id: '4',
+			id: '2',
 			name: 'Calendar',
 			icon: 'calendar',
 			link: 'https://calendar.google.com/calendar/r',
 		},
 		{
-			id: '5',
+			id: '3',
 			name: 'Reddit',
 			icon: 'glasses',
 			link: 'https://reddit.com',
 		},
 		{
-			id: '6',
-			name: 'Odysee',
+			id: '4',
+			name: 'youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -101,30 +95,6 @@ const CONFIG = {
 			name: 'twitter',
 			icon: 'twitter',
 			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
 		},
 	],
 
@@ -163,18 +133,6 @@ const CONFIG = {
 				{
 					name: 'Linkedin',
 					link: 'https://www.linkedin.com',
-				},
-				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
-				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
 				},
 			],
 		},
