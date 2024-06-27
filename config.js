@@ -81,6 +81,12 @@ const CONFIG = {
 			icon: 'youtube',
 			link: 'https://youtube.com/',
 		},
+		{
+			id: '4',
+			name: 'twitter',
+			icon: 'twitter',
+			link: 'https://twitter.com/',
+		},
 	],
 
 	secondButtonsContainer: [
