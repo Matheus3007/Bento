@@ -94,28 +94,36 @@ const CONFIG = {
 	// ┴─┘┴└─┘ ┴ └─┘
 
 	// First Links Container
-	firstlistsContainer: [
-		{
-			icon: 'cloud',
-			id: '1',
-			links:[
-				{
-					name: 'SF - Prod',
-					link: 'https://d1h000000oliluag.my.salesforce.com/'
-				},
-				
-				{
-					name: 'SF - Dev',
-					link: 'https://d1h000000oliluag--rgscopy.sandbox.my.salesforce.com/'
-				},
-			],
-		},
-		
-		
-	],
+   firstlistsContainer: [
+    {
+      icon: 'cloud',
+      id: '1',
+      links: [
+        {
+          name: 'SF - Prod',
+          link: 'https://d1h000000oliluag.my.salesforce.com/',
+        },
+        {
+          name: 'SF - Dev',
+          link: 'https://d1h000000oliluag--rgscopy.sandbox.my.salesforce.com/',
+        },
 
-	// Second Links Container
-	secondListsContainer: [
-		
-	],
+      ],
+    },
+    {
+      icon: 'server',
+      id: '2',
+      links: [
+        {
+          name: 'AWS Login',
+          link: 'https://271883367777.signin.aws.amazon.com/console',
+        },
+	{
+          name: 'localhost',
+          link: 'http://localhost:3000/',
+        },
+
+      ],
+    },
+  ],
 };
