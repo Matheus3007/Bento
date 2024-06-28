@@ -89,10 +89,6 @@ const CONFIG = {
 		},
 	],
 
-	secondButtonsContainer: [
-		
-	],
-
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
 	// ┴─┘┴└─┘ ┴ └─┘
