@@ -63,12 +63,7 @@ const CONFIG = {
 			icon: 'mail',
 			link: 'https://mail.google.com/',
 		},
-		{
-			id: '3',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
-		},
+		
 		{
 			id: '6',
 			name: 'Reddit',
@@ -104,16 +99,23 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Cloud',
-			icon: 'cloud',
-			link: 'https://d1h000000oliluag.my.salesforce.com/',
-		},
-		{
-			id: '6',
 			name: 'AWS',
 			icon: 'cog',
 			link: 'https://271883367777.signin.aws.amazon.com/console',
 		},
+		{
+			id: '4',
+			name: 'Calendar',
+			icon: 'calendar',
+			link: 'https://calendar.google.com/calendar/r',
+		},
+		{
+			id: '5',
+			name: 'Cloud',
+			icon: 'cloud',
+			link: 'https://d1h000000oliluag.my.salesforce.com/',
+		},
+		
 	],
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
