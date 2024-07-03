@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep,',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'e8f2c4fa78b7ce58ed8dc11dd1211202', // Write here your API Key
@@ -86,6 +86,33 @@ const CONFIG = {
 			name: 'twitter',
 			icon: 'twitter',
 			link: 'https://twitter.com/',
+		},
+	],
+
+	secondButtonsContainer: [
+		{
+			id: '1',
+			name: 'Salesforce-Dev',
+			icon: 'cloud-cog',
+			link: 'https://d1h000000oliluag--rgscopy.sandbox.my.salesforce.com/',
+		},
+		{
+			id: '2',
+			name: 'Localhost',
+			icon: 'server',
+			link: 'http://localhost:3000/',
+		},
+		{
+			id: '3',
+			name: 'Cloud',
+			icon: 'cloud',
+			link: 'https://d1h000000oliluag.my.salesforce.com/',
+		},
+		{
+			id: '6',
+			name: 'AWS',
+			icon: 'cog',
+			link: 'https://271883367777.signin.aws.amazon.com/console',
 		},
 	],
 
